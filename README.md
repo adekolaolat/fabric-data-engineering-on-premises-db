@@ -1,26 +1,24 @@
 # Data Pipeline for on-premises using Microsoft Fabric.
 
-Using Microsoft Fabric to build data pipeline for a business scenario where data is loaded from an on-premises database and processes into a modern data warehouse for analytical and data science workloads.
-
-
+Using Microsoft Fabric to build data pipeline for a business scenario where data is loaded from an on-premises database and processes into a lakehouse for analytical workloads.
 
 ## Overview
 
-This project will simulate a typical  retail chain scenario where sales and product data is loaded from an on-premise SQL database and processed into a modern data warehouse using Microsoft Fabric.
+This project will simulate a typical  retail chain scenario where sales and product data is loaded from an on-premise SQL database, transforms and visualise the data using Microsoft Fabric.
 
 
 
   <details><summary><b> A Business Scenario</b></summary>
 Let's say . . .
 
-A retail business noticed that popular products kept running out while slow movers piled up in storage. To fix this, the management has asked: “Which products might sell out soon, and which ones are overstocked, based on our inventory and recent sales?”
+A company was facing quality issues in its supply chain, several vendors were consistently delivering defective items, leading to increased rejection rates, production delays, and rising costs. Procurement teams struggled to pinpoint which suppliers were responsible for the most rejected goods and how much these defects were costing the business.
 
-They want an easy way for teams to see sales trends versus inventory, flag products that need quick restocks or clearance, and keep customers happy while cutting excess inventory costs. All the data is in their on-premises database, and now stakeholders want a solution to make this happen.
+Now, management has asked:
+“Which of our suppliers are responsible for the most product rejections, and how much are these defects costing us? Which vendors are delivering consistent quality, and how can we reduce returns and losses?”
 
 A solution . . .
 
-Proposes a data pipeline that extracts data daily from the on-premises database, loads it into Azure, and transforms it to create a custom daily report using **Fabric**. This report will show current inventory levels, sales trends, products at risk of selling out soon, and overstocked items. The data will feed into a dashboard, allowing teams to quickly spot which products need restocking or clearance, filter by category, and drill into details. The pipeline will run automatically, ensuring teams always have up-to-date information to make fast decisions and keep inventory balanced.
-  
+proposes up a data pipeline that pulls procurement and vendor info from the on-premises database and processes using **Fabric**. It calculates key metrics like how many items were rejected, how much they cost, and which vendors have the highest rejection rates. The results show up in a BI dashboard so the team can quickly spot which suppliers are not meeting up with expectations. With this, the team will use the data to negotiate better deals and cut down on procurement costs.
 
   </details>
 
@@ -38,8 +36,6 @@ Proposes a data pipeline that extracts data daily from the on-premises database,
 ## Data Pipeline Overview
 
 To simulate this, the AdventureWorks database will be used  Data Ingestion from on-premise database. – Migrate data from on-premise to Fabric SQL database.
-	
-
 
 ![alt text](/images/On-prem_Fabric.png)
 
@@ -58,11 +54,11 @@ To simulate this, the AdventureWorks database will be used  Data Ingestion from 
 - [ Data ingestion - Use Data pipeline to land data from  on-premises into lakehouse.](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/guides/data-ingestion.md)
 
 
-- [Transformation - Tranform data to silver and  gold tables using PySpark](https://github.com/adekolaolat/bods-liverpool-azure-data-engineering/blob/main/guides/transformation.md)
+- [Transformation - Tranform data to silver and  gold tables using PySpark](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/guides/transformation.md)
 
 - [Set up semantic model](https://github.com/adekolaolat/bods-liverpool-azure-data-engineering/blob/main/guides/transformation.md#getting-gold-layer-from-silver)
 
-- [Visualisation -  Set up Semantic model for tables and build report/dashboard in Fabric.](https://github.com/adekolaolat/bods-liverpool-azure-data-engineering/blob/main/guides/data-viz.md)
+- [Reporting-  Set up Semantic model for tables and build report/dashboard in Fabric.](https://github.com/adekolaolat/bods-liverpool-azure-data-engineering/blob/main/guides/data-viz.md)
 
 
 ## Outcome
