@@ -10,3 +10,7 @@ I created a semantic model as a new item in Fabric, using the gold tables to def
 **Relationships**
 
 ![alt text](/images/relationship-semantic.png)
+
+[⏮️ Transformation](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/guides/transformation.md)
+
+[Go to Implementation](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db#implementation-steps)

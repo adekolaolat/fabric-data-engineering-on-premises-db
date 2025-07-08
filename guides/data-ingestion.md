@@ -77,3 +77,5 @@ Pipeline will copy and store data from the on-prem table as csv files tables dyn
 *The pipeline activity configurations can also be tweaked to land data in the Tables folder instead of Files. That way, you don’t have to worry about keeping the data structure consistent when your pipeline runs updates from on-prem. Plus, using Tables gives you the ‘Upsert’ feature, so new data just gets updated automatically each time the pipeline runs.*
 
 [⏮️ Go to Set up](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/guides/on-prem-db-setup.md)
+
+[⏭️ Transformation](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/guides/transformation.md)

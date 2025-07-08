@@ -31,6 +31,12 @@ At the gold level I would have facts and dimension tables which would be used fo
 - gold_dim_vendorleadtime
   
 **Fact Table**
+
 -  gold_fact_procurement
 
 [Silver-to-Gold Notebook](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/notebooks/Transform%20silver%20to%20gold.ipynb)
+
+
+[⏮️ Go Data Ingestion](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/guides/data-ingestion.md)
+
+[⏭️ Semantic model](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/guides/semantic-model.md)

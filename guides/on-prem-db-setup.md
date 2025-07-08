@@ -30,3 +30,6 @@ Fabric will talk to on-prem DB through a gateway.
 - On-premises gateway needs to be installed on the machine and set up using the Fabric tenant details.
 
 [⏭️ Data Ingestion](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/guides/data-ingestion.md)
+
+[Go Back to Implementation Steps](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db#implementation-steps)
+
