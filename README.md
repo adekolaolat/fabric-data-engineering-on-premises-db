@@ -1,12 +1,8 @@
-# Data Pipeline for on-premises using Microsoft Fabric.
-
-Using Microsoft Fabric to build data pipeline for a business scenario where data is loaded from an on-premises database and processes into a lakehouse for analytical workloads.
+# On-Premises Data Pipeline with Microsoft Fabric
 
 ## Overview
 
 This project will simulate a typical  retail chain scenario where sales and product data is loaded from an on-premise SQL database, transforms and visualise the data using Microsoft Fabric.
-
-
 
   <details><summary><b> A Business Scenario</b></summary>
 Let's say . . .
@@ -24,18 +20,18 @@ proposes up a data pipeline that pulls procurement and vendor info from the on-p
 
 ## Prerequisite
 
-- Adventure Works database set up on machine. Check here for set up.
+- Adventure Works database set up on machine. Check [here](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/guides/on-prem-db-setup.md) for set up.
 - Azure account
 - Fabrics setup. For the free trial follow [this](https://www.youtube.com/watch?v=RHV7jZqc_tE)
 - Microsoft tenant/ work email.
-- [ Medalllion lakehouse architecture](https://learn.microsoft.com/en-us/azure/databricks/lakehouse/medallion)
+- [Medalllion lakehouse architecture](https://learn.microsoft.com/en-us/azure/databricks/lakehouse/medallion)
 
 - Pyspark, SQL
 
 
 ## Data Pipeline Overview
 
-To simulate this, the AdventureWorks database will be used  Data Ingestion from on-premise database. – Migrate data from on-premise to Fabric SQL database.
+To simulate the process, the AdventureWorks database will be used. This involves setting up the database locally, ingesting the data remotely into Fabric through a Data Pipeline, transforming it using PySpark following the medallion architecture, and creating a semantic model for visualization.
 
 ![alt text](/images/On-prem_Fabric.png)
 
@@ -51,21 +47,14 @@ To simulate this, the AdventureWorks database will be used  Data Ingestion from 
 
   </details>
 
-- [ Data ingestion - Use Data pipeline to land data from  on-premises into lakehouse.](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/guides/data-ingestion.md)
-
+- [Data ingestion - Use Data pipeline to land data from  on-premises into lakehouse.](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/guides/data-ingestion.md)
 
 - [Transformation - Tranform data to silver and  gold tables using PySpark](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/guides/transformation.md)
 
-- [Set up semantic model](https://github.com/adekolaolat/bods-liverpool-azure-data-engineering/blob/main/guides/transformation.md#getting-gold-layer-from-silver)
-
-- [Reporting-  Set up Semantic model for tables and build report/dashboard in Fabric.](https://github.com/adekolaolat/bods-liverpool-azure-data-engineering/blob/main/guides/data-viz.md)
-
+- [Set up Semantic model for tables and build report/dashboard in Fabric.](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/guides/semantic-model.md)
 
 ## Outcome
 
-
-- #### Report on procurement review of suppliers.
-
-
+- **PowerBI Report on procurement review of suppliers**.
 
 ![alt text](images/AW_dashboard_Fabric_procurement.jpg)
