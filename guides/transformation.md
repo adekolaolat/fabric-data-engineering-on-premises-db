@@ -15,7 +15,7 @@ To start, I reviewed the schema and identified the key tables needed to meet the
   
 This process involved basic transformation of the date fields to readable formats which we would make use of later on.
 
-[Bronze-to-Silver Notebook]()
+[Bronze-to-Silver Notebook](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/notebooks/Transform%20bronze%20to%20silver.ipynb)
 
 
 ## Transform silver to gold
@@ -33,4 +33,4 @@ At the gold level I would have facts and dimension tables which would be used fo
 **Fact Table**
 -  gold_fact_procurement
 
-[Silver-to-Gold Notebook]()
+[Silver-to-Gold Notebook](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/notebooks/Transform%20silver%20to%20gold.ipynb)
