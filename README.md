@@ -49,7 +49,7 @@ To simulate the process, the AdventureWorks database will be used. This involves
 
 - [Data ingestion - Use Data pipeline to land data from  on-premises into lakehouse.](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/guides/data-ingestion.md)
 
-- [Transformation - Tranform data to silver and  gold tables using PySpark](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/guides/transformation.md)
+- [Transformation - Transform data to silver and  gold tables using PySpark](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/guides/transformation.md)
 
 - [Set up Semantic model for tables and build report/dashboard in Fabric.](https://github.com/adekolaolat/fabric-data-engineering-on-premises-db/blob/main/guides/semantic-model.md)
 
