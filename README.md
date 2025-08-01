@@ -56,5 +56,6 @@ To simulate the process, the AdventureWorks database will be used. This involves
 ## Outcome
 
 - **PowerBI Report on procurement review of suppliers**.
+The report highlights suppliers whose products have cost the business, based on the value of the items they've delivered. It also flags regular suppliers whose product costs fall below a set threshold (3.5% of total purchase cost). This helps keep an eye on supply quality, stay connected with suppliers, and potentially renegotiate terms for rejected items to help reduce procurement costs.
 
 ![alt text](images/AW_dashboard_Fabric_procurement.jpg)
